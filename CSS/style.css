@@ -3,50 +3,57 @@
     margin: 0;  
     font-family: 'Trebuchet MS','Gill Sans','Gill Sans MT','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
-
+/*Scrolls you down the page once you click on a link*/
 html {
     scroll-behavior: smooth;
   }
 
+/*places the parent in a relative position and makes the background and text a white color*/
 body {
     position: relative;
     background-color: #d9dcd6;
     color: white;
 }
 
+/*Changes the color of the header to blue and text color to white*/
 header {
     background-color: #2a607c;
     color: white;    
 }
 
+/*This placed the links next to each other instead of blocking and separated them a bit from each other*/
 li {
     display: inline-block;
     padding: 20px;
 }
 
+/*Type selector that formats the links in the header to not be blue nor have an underline*/
 a { 
     text-decoration: none;
     color: white;
  }
 
+ /*This formats the headers in the Services sections to help space out each topic and resize the font*/
 h2 {
     margin-bottom: 20px;
     font-size: 37px;
 }
 
+/*This formats the headers in the Benefits sections to help space out each topic*/
 h3 {
     margin-top: 20px;
     margin-bottom: 35px;
     text-align: center;
 }
 
+/*Type selector to format the text*/
 footer {
-    font-size: 20px;
     padding: 20px;
     text-align: center;
     color: black;
 }
 
+/*Moved the image from CSS into html and created the class below to resize it*/
 .hero {
     max-height: 100%;
     max-width: 100%;
@@ -55,6 +62,7 @@ footer {
     background-position: center;
 }
 
+/*Combined the classes for the three services into one*/
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -67,6 +75,7 @@ footer {
     margin-left: 30px;
 }
 
+/*Class to properly position the images in the three Services section*/
 .float-left {
     float: left;
     margin: -11px;
@@ -75,6 +84,7 @@ footer {
     padding-right: 50px;
 }
 
+/*Class to properly position the images in the three Services section*/
 .float-right {
     float: right;
     margin: -11px;
@@ -83,6 +93,7 @@ footer {
     padding-left: 50px;
 }
 
+/*Combined the classes for the three benefits into one class - put in absolute position to move next to the other sections*/
 .benefits {
     position: absolute;
     bottom: 170px;
@@ -92,6 +103,7 @@ footer {
     background-color: #2589bd;
 }
 
+/*Class to resize and position the images in the Benefits section*/
 .img {
     display: block;
     margin-left: auto;
@@ -100,6 +112,7 @@ footer {
     max-height: 150px;
 }
 
+/*Identifier added to allow me to push the links in the header over to the right*/
 #left-margin {
     margin-left: 570px;
  }
