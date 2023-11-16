@@ -5,20 +5,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css">
-    <title>Horiseon</title>
+    <link rel="stylesheet" href="./CSS/style.css"> <!--The stylesheet was not pulling correctly. Corrected the link-->
+    <title>Horiseon - Provided Services</title> <!--put a title for the very top on the tab letting the user where they are in the site-->
 </head>
 
+<!--Replaced all of the div elements with the correct semantic HTML elements below-->
 <body>
     <header>    
         <li><h1>Horiseon</h1></li>
-        <li id="left-margin"><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+        <li id="left-margin"><a href="#search-engine-optimization">Search Engine Optimization</a></li><!--ID selector incorportates left margin to move the links to the right-->
         <li><a href="#online-reputation-management">Online Reputation Management</a></li>
-        <li><a href="#social-media-marketing">Social Media Marketing</a> </li> 
+        <li><a href="#social-media-marketing">Social Media Marketing</a></li> 
     </header>
 
 <main>
 
+    <!--Moved the image from stylesheet to here and made it as a section.-->
     <section>
         <img src="./Images/digital-marketing-meeting.jpg" class="hero" alt="A Marketing team in a meeting"/>
     </section>
@@ -43,27 +45,24 @@
     </section>
 
     <section class="benefits">
-        <div>
+
             <h3>Lead Generation</h3>
             <img src="./Images/lead-generation.png" class="img" alt="A symbol of a funnel with an arrow pointing down towards a dollar sign"/>
             <p> Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
-        </div>
-
-        <div>
+       
             <h3>Brand Awareness</h3>
             <img src="./Images/brand-awareness.png" class="img" alt="Symbol of a person in a suit and tie having the head of a lightbulb"/>
             <p> Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
-        </div>
-
-        <div>
+       
             <h3>Cost Management</h3>
             <img src="./Images/cost-management.png" class="img" alt="symbol of a turning gear surrounded by coins with dollar signs on them"/>
             <p> As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
-        </div>
+       
     </section>
 
 </main>
 
+<!--Put in a footer element-->
     <footer>
         Made with ❤️️ by Horiseon
         <p>&copy; 2023 Horiseon Social Solution Services, Inc.</p>
